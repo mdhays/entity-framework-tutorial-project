@@ -1,0 +1,1 @@
+C:\Users\airso\Desktop\Code\entity-framework-tutorial-project\ComicBookGalleryModel\bin\Debug\ComicBookGalleryModel.exe.config
