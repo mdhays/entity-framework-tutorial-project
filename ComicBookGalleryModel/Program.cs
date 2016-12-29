@@ -1,5 +1,7 @@
-﻿using System;
+﻿using ComicBookGalleryModel.Models;
+using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,6 +12,25 @@ namespace ComicBookGalleryModel
     {
         static void Main(string[] args)
         {
+            using (var context = new Context())
+            {
+                context.ComicBooks.Add(new ComicBook()
+                {
+                    SeriesTitle = "The Amazing Spiderman",
+                    IssueNumber = 1,
+                    PublishedOn = DateTime.Today
+                });
+                context.SaveChanges();
+
+                var comicBooks = context.ComicBooks.ToList();
+
+                foreach (var comicBook in comicBooks)
+                {
+                    Console.WriteLine(comicBook.SeriesTitle);
+                }
+
+                Console.ReadLine();
+            }
         }
     }
 }

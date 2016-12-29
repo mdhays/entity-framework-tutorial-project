@@ -1,1 +1,10 @@
 C:\Users\airso\Desktop\Code\entity-framework-tutorial-project\ComicBookGalleryModel\bin\Debug\ComicBookGalleryModel.exe.config
+C:\Users\airso\Desktop\Code\entity-framework-tutorial-project\ComicBookGalleryModel\bin\Debug\ComicBookGalleryModel.exe
+C:\Users\airso\Desktop\Code\entity-framework-tutorial-project\ComicBookGalleryModel\bin\Debug\ComicBookGalleryModel.pdb
+C:\Users\airso\Desktop\Code\entity-framework-tutorial-project\ComicBookGalleryModel\bin\Debug\EntityFramework.dll
+C:\Users\airso\Desktop\Code\entity-framework-tutorial-project\ComicBookGalleryModel\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\airso\Desktop\Code\entity-framework-tutorial-project\ComicBookGalleryModel\bin\Debug\EntityFramework.xml
+C:\Users\airso\Desktop\Code\entity-framework-tutorial-project\ComicBookGalleryModel\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\airso\Desktop\Code\entity-framework-tutorial-project\ComicBookGalleryModel\obj\Debug\ComicBookGalleryModel.csprojResolveAssemblyReference.cache
+C:\Users\airso\Desktop\Code\entity-framework-tutorial-project\ComicBookGalleryModel\obj\Debug\ComicBookGalleryModel.exe
+C:\Users\airso\Desktop\Code\entity-framework-tutorial-project\ComicBookGalleryModel\obj\Debug\ComicBookGalleryModel.pdb
