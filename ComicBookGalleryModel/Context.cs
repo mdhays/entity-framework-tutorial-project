@@ -10,6 +10,11 @@ namespace ComicBookGalleryModel
 {
     public class Context : DbContext
     {
+        public Context() : base("ComicBookGallery")
+        {
+
+        } 
+
         public DbSet<ComicBook> ComicBooks { get; set; }
     }
 }
