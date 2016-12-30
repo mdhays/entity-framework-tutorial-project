@@ -10,10 +10,13 @@ namespace ComicBookGalleryModel
 {
     public class Context : DbContext
     {
-        public Context() : base("ComicBookGallery")
+        public Context()
         {
+            //Database.SetInitializer(new DropCreateDatabaseIfModelChanges<Context>());
+            Database.SetInitializer(new DropCreateDatabaseAlways<Context>());
+            //Database.SetInitializer(new CreateDatabaseIfNotExists<Context>())
 
-        } 
+        }
 
         public DbSet<ComicBook> ComicBooks { get; set; }
     }
